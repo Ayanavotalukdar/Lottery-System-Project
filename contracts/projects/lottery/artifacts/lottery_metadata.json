@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "makePayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "manager",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "randomNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/projects/lottery/lottery.sol": "lottery"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.8/ConfirmedOwner.sol": {
+			"keccak256": "0x99d0b0786fe368970009c703f2249bfbc56340ddf1a28b60d2915bb58c34cd72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af0371c1af45db651823b9a3d5af761b08243c78f105166342eee28de356c8dd",
+				"dweb:/ipfs/QmPnC9qNDKwJFd5unwLb9pxjrutoe8MWjm5EXHTxq2kJ4x"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/ConfirmedOwnerWithProposal.sol": {
+			"keccak256": "0x1cdcb676fccee19376c2e12970ffd74452525835e75bb1af6c0110fb13bf6f2e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8eb3d2e271d27020b0c9170619cebec0b3f173d73b64f77c81637c0c2bb88cf6",
+				"dweb:/ipfs/QmXm2eKnXERLvqYM6jiCPP3Ws7iaHExMM5igVTmTLztaLu"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol": {
+			"keccak256": "0x3d709a5e0f1f9b8841172b10ba8af785dd51a13eda9fc395723a706e51329904",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://038eef992d813c20737fbe94e3a36e5d541d1aa736158dd2a43dd5b840b8c360",
+				"dweb:/ipfs/QmZWJ25Yr1sUSAsfJRKvTMDmGkmy63hHhB495CUL1bpNz4"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/interfaces/OwnableInterface.sol": {
+			"keccak256": "0xb8b3a97783dddc198b790c4cec1eda7fb47aa38cbaea6555220d0ed8c735c086",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://acf7ed6aff47fbddeff1b85e1225a717dfa8bfb3ab89db0e6564346afcf03693",
+				"dweb:/ipfs/QmQQn5sKn1ARbt1WhYoHwfTJhK8fbQi8MbDQeHxGXTPbPE"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol": {
+			"keccak256": "0xe634c60efc593cbd69311783c98672a5e19d4b35214c7185e8392a1f7dc697d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://924ed1ddcafcd8c14220b618b4450b4759d21e2efb7f678b64ae106220c0b4bc",
+				"dweb:/ipfs/QmeFfk8F4UniUrqKwLEyjxoUwgJNDSab36CRn47uvmhCVZ"
+			]
+		},
+		"contracts/projects/lottery/lottery.sol": {
+			"keccak256": "0x305a350c2d3c0171c15eab2d9792183321abda9793b53c12533861425d2d3aaf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a6046880aa59291d1dc0b4bf5cbc18b8537beddf089805c49d829d5fb895b049",
+				"dweb:/ipfs/QmUAtd6Av4ykDeD1sjbH53GBNgwro4ET8Gfh655vZCshtu"
+			]
+		},
+		"contracts/projects/lottery/randomNum.sol": {
+			"keccak256": "0xc1c92b0952b54c184340457c27660955c1f3b8573b337b1f51d57fdb9a88916e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9575015258f225c286c70f2cf0925bbd1721a4c48316cbd55e19dc1316966489",
+				"dweb:/ipfs/QmRYXMcD7H5nssqf8DayneWg5mSL3Mxgqj56BaH7poLboZ"
+			]
+		}
+	},
+	"version": 1
+}
